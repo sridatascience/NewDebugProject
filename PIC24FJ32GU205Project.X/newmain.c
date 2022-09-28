@@ -17,7 +17,7 @@ void main() {
    uint8_t c = 0x1F;
    TRISA = c;
    uint8_t b =0x08;
-   ANSA = b;
+   LATB = b;
    uint8_t t = add(a,b,c);
    return;
 }
